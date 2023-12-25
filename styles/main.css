@@ -21,6 +21,7 @@ body {
 	background-position: center;
 	background-size: cover;
 	height: 100%;
+	overflow: hidden;
 }
 
 .container {
@@ -168,6 +169,49 @@ a.active:active {
 	animation: shacke 2s infinite alternate ease-in-out;
 }
 
+
+/* triangles */
+
+.bg__triangle {
+	position: absolute;
+	z-index: -1;
+	padding: 60px;
+}
+
+.bg__triangle_1 {
+	left: 400px;
+	top: 100px;
+}
+
+.bg__triangle_2 {
+	left: 50px;
+	top: 300px;
+}
+
+.bg__triangle_3 {
+	left: 800px;
+	top: 500px;
+}
+
+.bg__triangle_4 {
+	left: 1400px;
+	top: 700px;
+}
+
+.bg__triangle_5 {
+	left: 300px;
+	top: 700px;
+}
+
+.bg__triangle_6 {
+	left: 900px;
+	top: 100px;
+}
+
+.bg__triangle_7 {
+	left: 1400px;
+	top: 250px;
+}
 
 @keyframes shacke {
 	0% {
