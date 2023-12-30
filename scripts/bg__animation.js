@@ -1,6 +1,6 @@
 for(let i = 1; i <= 7; i++) {
 	const triangle = document.createElement('img')
-	triangle.src = (i % 2 == 0) ? "/images/triangle_purple.svg" : "/images/triangle_green.svg"
+	triangle.src = (i % 2 == 0) ? "images/triangle_purple.svg" : "images/triangle_green.svg"
 	triangle.classList.add('bg__triangle', `bg__triangle_${i}`)
 
 	document.body.insertAdjacentElement("afterbegin", triangle)
