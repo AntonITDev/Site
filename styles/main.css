@@ -20,8 +20,7 @@ body {
 	background-image: url('../images/BG.png');
 	background-position: center;
 	background-size: cover;
-	height: 100%;
-	overflow: hidden;
+	height: 100dvh;
 }
 
 .container {
@@ -294,6 +293,11 @@ a.active:active {
 		max-width: 700px;
 	}
 
+	.header {
+		padding: 20px 20px 0;
+		margin-bottom: 50px;
+	}
+
 	.main__skills {
 		display: none;
 	}
@@ -311,7 +315,9 @@ a.active:active {
 		padding: 16px 8px;
 	}
 
+	.main__title  { font-size: 2em; font-weight: 700; margin-bottom: 7px;}
+	
 	.bg__triangle {
-		display: none;
+		display:none;
 	}
 }
