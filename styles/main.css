@@ -310,4 +310,8 @@ a.active:active {
 	.main__more {
 		padding: 16px 8px;
 	}
+
+	.bg__triangle {
+		display: none;
+	}
 }
