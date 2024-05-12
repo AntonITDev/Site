@@ -1,63 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Индюков А.Д. IT-специалист</title>
-	<link rel="stylesheet" href="styles/normalize.css">
-	<link rel="stylesheet" href="styles/main.css">
+	<title>AntonITDev - IT-специалист</title>
+	<link rel="icon" href="/src/images/icons/site_logo.svg">
+	<link rel="stylesheet" href="/src/styles/normalize.css">
+	<link rel="stylesheet" href="/src/styles/main.css">
+	<link rel="stylesheet" href="/src/styles/home.css">
+	<meta name='author' content='AntonITDev (Anton Indyukov)'>
+	<meta name='keywords'
+		content='Фронтенд, сайт, под ключ, frontend, разработчик, web, специалист, адаптивность, саратов, дизайн, вёрстка, оптимизация, улучшение'>
+	<meta name='description' content='Сайт портфолио разработчика сайтов'>
 </head>
+
 <body>
 	<header class="header">
-		<div class="header__wrapper container">
-			<a href="#" class="logo"><img src="images/icons/logo.svg" alt="Индюков Антон IT-специалист"></a>
-			<nav class="navbar">
+		<nav class="navbar container">
+			<div class="header__wrapper">
+				<a href="/index.html" class="logo"><img src="/src/images/icons/logo.svg"
+						alt="Индюков Антон IT-специалист"></a>
+
 				<ul class="menu">
-					<li><a href="#">Мои работы</a></li>
-					<li><a href="#">Обо мне</a></li>
-					<li><a class="active" href="#">Главная</a></li>
-					<li><a href="#">Услуги</a></li>
-					<li><a href="#">Контакты</a></li>
+					<a href="tel:+79020000000" class="tel">+7 (902) 046-27-73</a>
+					<li><a href="/src/pages/projects.html" class="menu__link">Проекты</a></li>
+					<li><a href="/src/pages/about.html" class="menu__link">Обо мне</a></li>
+					<li><a href="/index.html" class="menu__link">Главная</a></li>
+					<li><a href="/src/pages/services.html" class="menu__link">Услуги</a></li>
+					<li><a href="/src/pages/contacts.html" class="menu__link">Контакты</a></li>
 				</ul>
-			</nav>
-			<a href="tel:+79020000000" class="telephone">+7 (902) 046-27-73</a>
-		</div>
+
+				<a href="tel:+79020000000" class="tel">+7 (902) 046-27-73</a>
+				<button class='button__open-menu'><img src="/src/images/icons/burger-menu.svg" alt="menu"
+						class="menu-icon"></button>
+			</div>
+		</nav>
 	</header>
 	<main class="main">
 		<div class="main__wrapper container">
 			<div class="main__info">
-				<h1 class="main__title">Веб-<span class="highlight">специалист</span></h1>
-				<p class="main__subtitle">Дизайн, вёрстка, сайты под ключ, оптимизация  и улучшение</p>
+				<h1 class="main__title">Разработка <span class="highlight">сайтов</span></h1>
+				<p class="main__subtitle">Дизайн, вёрстка, сайты под ключ, оптимизация и улучшение</p>
 
 				<ul class="main__qualities">
 					<li>Гарантия качества</li>
+					<li>Большой опыт в разработке</li>
 					<li>Все сложности беру на себя </li>
 					<li>Бесплатные правки</li>
 				</ul>
 
 				<div class="main__buttons">
-					<a href="https://vk.com/club223875842" class="main__cta button">Заказать консультацию</a>
+					<a href="#" class="main__cta button">Заказать консультацию</a>
 					<a href="#" class="main__more button">Подробнее</a>
 				</div>
 			</div>
-			<img src="images/mobile.svg" alt="mobile" class="main__skills">
+			<img src="/src/images/mobile.svg" alt="mobile" class="main__skills">
 		</div>
 	</main>
 	<footer class="footer">
 		<div class="container">
 			<p class="footer__description">
-				Хотите узнать больше обо мне или как я работаю?<br>
+				Хотите узнать больше <span class='highlight'>обо мне</span> или как я работаю?<br>
 				Следите за мной в социальных сетях.
 			</p>
 			<div class="footer__sociels">
-				<a href="https://t.me/anton_ind"><img src="images/icons/tg.svg" alt="Telegram"></a>
-				<a href="https://vk.com/club223875842"><img src="images/icons/vk.svg" alt="Vkontakte"></a>
-				<a href="#"><img src="images/icons/yt.svg" alt="Youtube"></a>
-				<a href="https://dzen.ru/user/dgymvyuibvbwscpxsrjllivnsey"><img src="images/icons/yd.svg" alt="Yandex Dzen"></a>
+				<a href="https://t.me/anton_ind"><img src="/src/images/icons/tg.svg" alt="Telegram"></a>
+				<a href="https://vk.com/club223875842"><img src="/src/images/icons/vk.svg" alt="Vkontakte"></a>
+				<a href="#"><img src="/src/images/icons/yt.svg" alt="Youtube"></a>
+				<a href="https://dzen.ru/user/dgymvyuibvbwscpxsrjllivnsey"><img src="/src/images/icons/yd.svg"
+						alt="Yandex Dzen"></a>
 			</div>
 		</div>
 	</footer>
 
-	<script src="scripts/bg__animation.js"></script>
+	<script src='/src/scripts/main.js'></script>
+	<script src='/src/scripts/menu.js'></script>
+	<script src="/src/scripts/createTriangles.js"></script>
 </body>
+
 </html>

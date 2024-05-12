@@ -1,0 +1,10 @@
+:root {
+	--color__link_active: rgba(95, 255, 255, 1);
+	--color__link_press: rgba(116, 116, 116, 1);
+	--color__text-highlight: rgb(21, 219, 123);
+	--color__main: rgba(225, 225, 225, 1);
+	--color__text_normal: rgba(184, 184, 184, 1);
+	--font__roboto: 'Roboto', sans-serif;
+	--font__inter: 'Inter', sans-serif;
+	--button__bg-border-color: rgb(154, 22, 187);
+}

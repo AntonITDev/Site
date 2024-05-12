@@ -1,0 +1,141 @@
+.main {
+	padding: 20px;
+}
+.main__wrapper {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	justify-content: stretch;
+	align-items: center;
+}
+
+.main__skills {
+	justify-self: center;
+	animation: shaking 2s infinite alternate ease-in-out;
+}
+
+.main__info {
+	align-self: start;
+	color: var(--color__text_active);
+}
+.main__title { 
+	font-size: clamp(2em, 4vw, 4em); 
+	font-weight: 600; 
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.main__subtitle {
+	color: var(--color__text_normal);
+	font-size: clamp(1rem, 1.5vw, 1.5rem); ;
+	margin-bottom: 50px ;
+}
+.main__qualities {
+	font-size: clamp(16px, 4vw, 24px);
+	margin-bottom: 48px;
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	row-gap: 20px;
+}
+
+.main__qualities li{
+	position: relative;
+	padding-left: 30px;
+	text-wrap: nowrap;
+}
+
+.main__qualities li::before{
+	content: url("../images/icons/award.svg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.main__buttons {
+	display: flex;
+}
+
+.main__cta {
+	font-family: var(--font__inter);
+	background-color: var(--button__bg-border-color);
+	margin-right: 6px;
+	border: 3px solid transparent;
+	font-weight: 700;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+}
+
+
+.main__more {
+	border: 3px solid var(--button__bg-border-color);
+	border-bottom-right-radius: 0;
+}
+
+/* ADAPTIVE */
+
+@media (max-width: 1200px) {
+	.main__info {
+		justify-self: center;
+	}
+}
+
+@media (max-width: 960px) {
+	.main {
+		margin-bottom: 80px;
+	}
+
+	.main__wrapper {
+		grid-template-columns: 2fr 1fr;
+	}
+
+	.main__skills {
+		max-width: 400px;
+	}
+
+	.main__cta {
+		padding: 16px 10px;
+		margin-right: 2px;
+	}
+	.main__more {
+		padding: 16px 8px;
+	}
+
+	.main__title  { font-size: 2em; font-weight: 700; margin-bottom: 7px;}
+	
+	.bg__triangle {
+		display:none;
+	}
+}
+
+@media (max-width: 768px) {
+	.main__skills {
+		max-width: 320px;
+	}
+
+	.main {
+		margin-top: 100px;
+	}
+
+	.main__wrapper{
+		align-items: center;
+	}
+}
+
+@media (max-width: 640px) {
+
+	.header {
+		margin-bottom: 0;
+	}
+
+	.main {
+		margin-top: 20px;
+	}
+	.main__wrapper {
+		grid-template-columns: 1fr;
+		justify-items: center;
+	}
+	
+	.main__skills {
+		display: none;
+	}
+}
