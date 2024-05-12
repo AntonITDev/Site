@@ -3,19 +3,19 @@ const projectsList = [
 		"title": "WeatherWidget",
 		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, ab!",
 		"link": "https://antonitdev.github.io/WeatherWidget/WeatherWidget/",
-		"photo": "/src/images/projects/weatherWidget.png"
+		"photo": "./src/images/projects/weatherWidget.png"
 	},
 	{
 		"title": "WeatherWidget2",
 		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, ab!",
 		"link": "https://antonitdev.github.io/WeatherWidget/WeatherWidget/",
-		"photo": "/src/images/projects/weatherWidget.png"
+		"photo": "./src/images/projects/weatherWidget.png"
 	},
 	{
 		"title": "WeatherWidget3",
 		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, ab!",
 		"link": "https://antonitdev.github.io/WeatherWidget/WeatherWidget/",
-		"photo": "/src/images/projects/weatherWidget.png"
+		"photo": "./src/images/projects/weatherWidget.png"
 	}
 ]
 
