@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 	for(let i = 1; i <= 10; i++) {
 		const triangle = document.createElement('img')
 
-		if (window.location.href.split('/')[3] != "index.html") {
+		if (window.location.href.split('/')[4] != "index.html") {
 			triangle.src = (i % 2 == 0) ? "../images/triangle_purple.svg" : "../images/triangle_green.svg"
 		} else {
 			triangle.src = (i % 2 == 0) ? "./src/images/triangle_purple.svg" : "./src/images/triangle_green.svg"
