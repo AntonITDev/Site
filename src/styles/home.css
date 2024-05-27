@@ -1,5 +1,5 @@
 .main {
-	padding: 20px;
+	padding: 10px;
 }
 .main__wrapper {
 	display: grid;
@@ -18,10 +18,28 @@
 	color: var(--color__text_active);
 }
 .main__title { 
-	font-size: clamp(2em, 4vw, 4em); 
+	font-size: clamp(1em, 3vw, 4em); 
 	font-weight: 600; 
 	margin-bottom: 10px;
 	text-transform: uppercase;
+	text-wrap: nowrap;
+}
+
+.main__title::after {
+	content: '|';
+
+	animation: blink 1s infinite;
+}
+
+.main__title.typing::after {
+	content: '|';
+	animation: none;
+}
+
+@keyframes blink {
+	60% {
+		opacity: 0;
+	}
 }
 
 .main__subtitle {
