@@ -9,5 +9,7 @@ function setActiveLink() {
 }
 
 document.addEventListener('DOMContentLoaded', ()=> {
+	document.querySelectorAll('a[data-disabled="true"]').forEach(link => { link.onclick = null })
 	setActiveLink()
 })
+

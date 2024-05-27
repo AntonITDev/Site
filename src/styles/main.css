@@ -36,6 +36,12 @@ body {
 	background-color: rgba(82, 82, 82, 0.2);
 }
 
+.menu__link[data-disabled="true"] {
+	pointer-events: none;
+	opacity: 0.5;
+	color: #b2b2b2;
+}
+
 /* DECORATE */
 
 .highlight {
