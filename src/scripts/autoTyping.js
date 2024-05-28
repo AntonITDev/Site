@@ -33,7 +33,7 @@ function startTyping() {
 	let text_index = 1
 	const delay = 5000
 
-	title.textContent = text[text_index] - 1
+	title.textContent = text[text_index- 1] 
 
 	setInterval(() => {
 		writing(text[text_index])
